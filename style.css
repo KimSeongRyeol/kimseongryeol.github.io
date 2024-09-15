@@ -1,45 +1,45 @@
 .imgStyle {
-    width: 300px;
-    height: 300px;
-    border-radius: 100%;
-  }
-  .text-center {
-    text-align: center;
-  }
-  .img-center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .word-color {
-    color: white;
-  }
-  .font-size {
-    font-size: 15pt;
-  }
-  .ulC {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: rgb(50, 50, 50);
-  }
-  .ulC::after {
-    content:'';
-    display: block;
-    clear: both;
-  }
-  .liC {
-    float: left;
-  }
-  .liC .aC {
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  .liC .aC:hover:not(.active) {
-    background-color: rgb(30, 30, 30)
-  }
-  .std-font-size {
-      font-size: 20pt;
-  }
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  display: inline-block;
+  margin: auto;
+}
+.text-center {
+  text-align: center;
+}
+.img-center {
+  text-align: center; 
+}
+.word-color {
+  color: white;
+}
+.font-size {
+  font-size: 15pt;
+}
+.ulC {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(50, 50, 50);
+}
+.ulC::after {
+  content:'';
+  display: block;
+  clear: both;
+}
+.liC {
+  float: left;
+}
+.liC .aC {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.liC .aC:hover:not(.active) {
+  background-color: rgb(30, 30, 30)
+}
+.std-font-size {
+    font-size: 20pt;
+}
